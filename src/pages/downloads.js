@@ -10,19 +10,34 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">Downloads</h1>
-        <p className="hero__subtitle">welcome</p>
-        <div className={styles.buttons}>
-          {/* <Link */}
-          {/*   className="button button--secondary button--lg" */}
-          {/*   to="/docs/intro"> */}
-          {/*   Docusaurus Tutorial - 5min ⏱️ */}
-          {/* </Link> */}
-        </div>
-      </div>
-    </header>
+    <div className="container">
+      <ul>
+        <h1>Data</h1>
+        <p>Download the data shown in the Brain Cell Data Viewer here for your own analysis.</p>
+      </ul>
+
+      <ul>
+        <li>
+          <h3>Nissl Images</h3>
+          <p>Brief description and link to Nissl images.</p>
+        </li>
+
+        <li>
+          <h3>Bead Positions</h3>
+          <p>Brief description and link to bead positions.</p>
+        </li>
+
+        <li>
+          <h3>Gene Expression</h3>
+          <p>Brief description and link to gene expression data.</p>
+        </li>
+
+        <li>
+          <h3>Celltype Scores</h3>
+          <p>Brief description and link to celltype scores.</p>
+        </li>
+      </ul>
+    </div>
   );
 }
 
