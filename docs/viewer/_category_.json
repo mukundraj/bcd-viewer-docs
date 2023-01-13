@@ -1,0 +1,9 @@
+{
+  "label": "Viewer",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about tabs of viewer",
+    "title": "Viewer"
+  }
+}
