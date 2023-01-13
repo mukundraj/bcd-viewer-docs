@@ -129,7 +129,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Macosko Lab.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://www.macoskolab.com">Macosko Lab</a>`,
       },
       prism: {
         theme: lightCodeTheme,
