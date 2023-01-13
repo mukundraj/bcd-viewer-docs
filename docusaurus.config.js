@@ -60,10 +60,10 @@ const config = {
     ({
       navbar: {
         title: 'Brain Cell Data Viewer',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'doc',
