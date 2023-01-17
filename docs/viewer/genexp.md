@@ -29,7 +29,8 @@ directly to a region of interest along the saggital axis.
 ### Primary Gene Selection (B)
 
 The primary gene selection dropdown allows the user to select a gene to plot
-its expression across area of the selected puck on the overlay plot (see N).
+its expression at sampling locations across the surface area of the selected
+puck on the [Overlay Plot (N)](#overlay-plot-n).
 
 ### Secondary Gene Selection (C)
 
@@ -49,18 +50,18 @@ Shows the ID of the currently selected puck.
 ### Progress Bar (E)
 
 Shows the percent of data fetched from the server to fulfill requirement
-stemming from latest selections (of puck, gene, celltype, etc.) made by the
+stemming from latest selections (of puck, gene, etc.) made by the
 user.
 
 ### UMI Count Threshold (F)
 
 The UMI count threshold slider allows the user to filter out beads with low UMI
-count.
+count from being shown in the [Overlay Plot (N)](#overlay-plot-n).
 
 ### Nissl Selection Checkbox (G)
 
 The Nissl selection checkbox allows the user to toggle the display of the Nissl
-image in the background in the overlay plot.
+image in the background in the [Overlay Plot (N)](#overlay-plot-n).
 
 ### Wireframe Selection Checkbox (H)
 
@@ -125,10 +126,10 @@ displayed in a tooltip format.
 
 ### Region Enrichment (Q)
 
-The region enrichment component helps find genes that are expressed highly
-expressed in a selected region (or a set of regions), while simultaneously,
-being less expressed outside the selected region. In other words, this
-components helps find genes that are unique to a selected set of regions.
+The region enrichment component helps find genes that are highly expressed in a
+selected region (or a set of regions), while simultaneously, being less
+expressed outside the selected region. In other words, this components helps
+find genes that are unique to a selected set of regions.
 
 The region enrichment component provides two sliders to the user to filter out
 genes from the table on the right side of the component. The first slider sets
