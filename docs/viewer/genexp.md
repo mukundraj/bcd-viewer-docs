@@ -44,31 +44,117 @@ top right region of the 2d colormap.
 
 ### Puck ID Indicator (D)
 
+Shows the ID of the currently selected puck.
+
 ### Progress Bar (E)
+
+Shows the percent of data fetched from the server to fulfill requirement
+stemming from latest selections (of puck, gene, celltype, etc.) made by the
+user.
 
 ### UMI Count Threshold (F)
 
+The UMI count threshold slider allows the user to filter out beads with low UMI
+count.
+
 ### Nissl Selection Checkbox (G)
+
+The Nissl selection checkbox allows the user to toggle the display of the Nissl
+image in the background in the overlay plot.
 
 ### Wireframe Selection Checkbox (H)
 
+The wireframe selection checkbox allows the user to toggle the display of the
+wireframe marking the boundaries of the Allen CCF regions in the overlay plot.
+The boundaries shown are those marking the finest level of detail in the Allen
+CCF tree of region hierarchy, or in other words - the boundaries are all of the
+regions that are represented by leaf nodes in the tree.
+
 ### Histogram Selector (J)
+
+The histogram selector allows the user to select the aggregation type in
+[Global Histogram (K)](#global-histogram-k)). The aggregation can either by
+`P`uckwise (this is default) or by `R`egions. If the aggregation is puckwise,
+then each bar of the histogram shows the total expression of that gene per 10K
+beads for all pucks. If the aggregation is regionwise, then each bar of the
+histogram shows the total expression of that gene per 10K beads in a
+preselected set of regions.
 
 ### Global Histogram (K)
 
+The global histogram shows the distribution of gene expression of currently
+selected gene. There are two variations of this component, which can be toggled
+using the [Histogram Selector (J)](#histogram-selector-j). The first variation shows the distribution of
+expression of the gene across all pucks. The second variation shows the
+distribution of expression of the gene across a set of preselected regions. In
+both cases, the gene expression is normalized to show expression counts per 10K
+beads.
+
 ### Opacity Proportion (L)
+
+The opacity proportion slider allows the user to control the opacity of the
+glyphs marking the bead position and conveying the gene expression value.
 
 ### Adaptive Colorbar (M)
 
+The range of the colorbar is automatically adjusted to the range of gene
+expression in the currently selected gene and puck.
+
 ### Overlay Plot (N)
 
-Puckwise or regionwise
+The overlay plot shows a spatial distribution of the expression of a chosen
+gene across a chosen puck. The gene expression is conveyed by a scatter plot in
+spatial coordinates whose point color is scaled by the magnitude of expression
+at its corresponding bead. A spatial context is provided in the background by a
+Nissl image of a section adjacent to the puck location and a wireframe marking
+the boundaries of the Allen CCF regions at the puck location.
 
 ### Region Selector and Dendrogram (P)
 
+The region selector allows the user to select a region from the Allen CCF and
+filter out beads that lie outside the selected region. The region can be
+selected either by typing the name of the region in the textbox or by checking
+the checkbox corresponding to a region in the interactive dendrogram. On
+selecting a parent tree, all its children are selected. 
+
+An bent arrow glyph can be seen on the right side of each row in the
+dendrogram. On clicking this glyph,  the user puck is change to that which has
+the highest expression of the currently chosen gene. Also, on hovering over the
+region name in the dendrogram, a short acronym version of the region name is
+displayed in a tooltip format.
+
 ### Region Enrichment (Q)
 
+The region enrichment component helps find genes that are expressed highly
+expressed in a selected region (or a set of regions), while simultaneously,
+being less expressed outside the selected region. In other words, this
+components helps find genes that are unique to a selected set of regions.
+
+The region enrichment component provides two sliders to the user to filter out
+genes from the table on the right side of the component. The first slider sets
+the threshold for minimum nonzero expression inside selected region. The second
+slider sets the threshold for maximum nonzero expression outside selected
+region. Together, these sliders can be adjusted to only select genes that are
+expressed within a selected region but not expressed outside that region.
+
+By default, the genes in the table are sorted in descending order of the
+percent of beads expressing the gene inside selected region. The order of
+sorting can be changed by clicking on the header row on the name of the field
+to sort by.  On hovering over the name of the gene in the table, a tooltip
+appears that shows the puck ID with the highest expression of that gene (per
+the [Global Histogram (K)](#global-histogram-k)) and the row number that tells us
+the order of the that gene in the table. The name of the gene in table can be
+clicked to move to the puck that has the highest expression of that gene.
+
 ### Region Histogram (R)
+
+The region histogram appears when a region is selected in the [Region Selector
+and Dendrogram (P)](#region-selector-and-dendrogram-p) component. It shows the
+total expression of that gene per 10K beads for all pucks in the selected
+region. This histogram is similar to the [Global Histogram
+(K)](#global-histogram-k) showing the gene's expression across all pucks, but
+has a restriction to only operate over the beads in the selected region and
+ignore all remaining beads.
 
 
 
