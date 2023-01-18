@@ -11,7 +11,8 @@ and architectural information about the viewer.
 
 For downloading the data, go to the [`Downloads`](../downloads) tab.
 
-For using the viewer, go to the [`Viewer`](https://www.braincelldata.org) application.
+For using the viewer, go to the <a href="https://www.braincelldata.org"
+target="_self">`Viewer`</a> application.
 
 Information about the viewer components, functionality, and architecture can be
 found in the following pages.
