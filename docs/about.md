@@ -3,7 +3,7 @@
 
 # About
 
-Brain Cell Data portal is developed by the [Macosko Lab](https://macoskolab.com) at the Broad Institute of MIT and Harvard.
+Brain Cell Data portal is developed by the [Macosko Lab](https://macoskolab.com) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org).
 
 ## Citation
 
@@ -11,15 +11,15 @@ Please cite the following paper/text for citation.
 
 ## Feedback and Queries
 
-abc@def.org
+braincelldata at gmail dot com
 
 ## Contributors
 
 Several scientists led the generation and analysis of these important datasets.
 
-- **Evan Macosko**: Led the overall project.
 - **Karol Balderrama**: Led the acquisition of the Slide-seq dataset.
 - **Jonah Langlieb**: Led the integration of the snRNA-seq and Slide-seq datasets.
+- **Evan Macosko**: PI
 - **Naeem Nadaf**: Led the acquisition of snRNA-seq dataset.
 - **Mukund Raj**: Led the construction of the BrainCellData portal.
 - **Nina Sachdev**: Led the integration of the snRNA-seq and Slide-seq datasets.
