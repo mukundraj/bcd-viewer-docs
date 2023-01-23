@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BrainCellData docs',
+  title: 'BrainCellData Docs',
   tagline: 'welcome',
   url: 'https://docs.braincelldata.org/',
   baseUrl: '/',
