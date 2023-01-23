@@ -51,6 +51,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+         gtag: {
+          trackingID: 'G-YJETVHXCRD',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -140,16 +144,6 @@ const config = {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
-  plugins: [
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-YJETVHXCRD',
-        // anonymizeIP: true,
-      },
-    ],
-  ],
-
 
 };
 
