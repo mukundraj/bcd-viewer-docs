@@ -23,9 +23,9 @@ function HomepageHeader() {
       <ul>
         <li>
           <h3>Nissl Images</h3>
-          <p>Nissl images in TIFF format. Format: TIFF files in zipped folder. Size: ?? GB.
+          <p>Nissl images in PNG format. Format: PNG files in a zipped file. Size:  812 MB.
           <br/>
-          <a href="">Download</a>
+          <a href="https://drive.google.com/file/d/1S2VcjDFFeHUkb2Mc5pSccHAkIR5JKP1F/view?usp=share_link">Download</a>
           </p>
         </li>
 
