@@ -103,7 +103,7 @@ export default function Home() {
   return (
     <Layout
       title={`Downloads`}
-      description="Downloads">
+      description="Data available for download">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
