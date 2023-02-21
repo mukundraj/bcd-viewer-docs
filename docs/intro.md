@@ -39,8 +39,10 @@ viewer subsections in the documentation.
   - [SingleCell docs](../viewer/singlecell)
   - [CellSpatial docs](../viewer/cellspatial)
 
-## Basic Viewer Usage Video
+<!-- ## Basic Viewer Usage Video
 
 Coming soon!
+-->
+
 <!-- <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 -->
