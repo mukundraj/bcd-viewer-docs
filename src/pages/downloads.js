@@ -29,38 +29,47 @@ function HomepageHeader() {
           </p>
         </li>
 
-        <li>
-          <h3>Slide-seq Bead Positions</h3>
-          <p>Slide-seq bead positions in the space of nissl images. Format: CSV files in zipped folder. Size: ?? GB.
-          <br/>
-          <a href="https://drive.google.com/drive/folders/1yfUFVvC-fPASfW5sv_UemgVY1Jkwe8ha?usp=sharing">Download</a>
-          </p>
-        </li>
 
         <li>
           <h3>Gene Expression</h3>
-          <p>Number of UMI for each gene for all Slide-seq beads. Format: nBeads x nGenes matrix in Anndata format. Size: ?? GB
-          <br/>
-          <a href="https://drive.google.com/drive/folders/1fiJDY2HYOasiKOdKSIfk2ol2JTV_wTAl?usp=sharing">Download</a>
+
+          <p>Number of UMI for each gene for all Slide-seq beads. Format:
+            nBeads x nGenes matrix in  <a
+            href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
+            format. Data is orgainized into one file per puck. A readme text
+            file with additional information is provided in the download
+          folder. <br/> <a
+          href="https://drive.google.com/drive/folders/1fiJDY2HYOasiKOdKSIfk2ol2JTV_wTAl?usp=share_link">Download</a>
+          </p>
+
+        </li>
+
+        <li>
+          <h3>Single Cell Clusters and Metadata</h3>
+
+          <p> Average and percent expression of all available genes, for all
+            identified cell clusters (celltypes), along with metadata for each
+            cluster. The metadata includes: a score indicating liklihood of
+            cell being present at each bead, dissectate(s) of origin
+            (determined from location of beads with score>threshold=0.3), and
+            an assigned cell class. Format: a set of files in <a
+              href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
+            format, one file per puck/slice. A readme file with additional
+            information is included in the same folder.
+
+            <br/>
+            <a href="https://drive.google.com/drive/folders/16P10yDckZ6Zs2GxPiX4bg7KnH9BthqIx?usp=share_link">Download</a>
           </p>
         </li>
 
         <li>
-          <h3>Single Cell Gene Expression and Metadata</h3>
+          <h3>Cell Spatial Localization</h3>
+          <p>
+            A lilihood score, for each celltype, of being present at each bead location. Format : nCelltype x nBeads matrix in <a
+              href="https://anndata.readthedocs.io/en/latest/">Anndata </a> format. Data organized into one file per puck. A readme file with additional information is included in the download folder.
 
-          <p> Average and percent expression of all available genes, for all
-            identified cells, along with metadata for each cell. The metadata
-            includes: a score indicating liklihood of cell being present at
-            each bead, dissectate(s) of origin (determined from location of
-            beads with score>threshold=0.3), and an assigned cell class.
-            Format: a set of files in <a
-              href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
-            format, one file per puck/slice. A readme file with supplementary
-            information that common to all Anndata files in the folder is
-            included in the same folder. Size: ??-?? GB
-
-            <br/>
-            <a href="https://drive.google.com/drive/folders/1H3VRv-oDp9uGYt2w_fDNNPYUGWNCqEb7?usp=share_link">Download</a>
+<br/> <a
+          href="https://drive.google.com/drive/folders/19R0_JeKJirmV_k7qUfJmHrx3irCkbqS6?usp=share_link">Download</a>
           </p>
         </li>
         {/* <li> */}
