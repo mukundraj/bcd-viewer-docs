@@ -36,7 +36,7 @@ function HomepageHeader() {
           <p>Number of UMI for each gene for all Slide-seq beads. Format:
             nBeads x nGenes matrix in  <a
             href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
-            format. Data is orgainized into one file per puck. A readme text
+            format. Bead coordinates and their assigned CCF region IDs are also included. Data is orgainized into one file per puck. A readme text
             file with additional information is provided in the download
           folder. <br/> <a
           href="https://drive.google.com/drive/folders/1fiJDY2HYOasiKOdKSIfk2ol2JTV_wTAl?usp=share_link">Download</a>
@@ -49,10 +49,8 @@ function HomepageHeader() {
 
           <p> Average and percent expression of all available genes, for all
             identified cell clusters (celltypes), along with metadata for each
-            cluster. The metadata includes: a score indicating liklihood of
-            cell being present at each bead, dissectate(s) of origin
-            (determined from location of beads with score>threshold=0.3), and
-            an assigned cell class. Format: a set of files in <a
+            cluster. The metadata includes: a top CCF structure of
+            origin and an assigned cell class. Format: a set of files in <a
               href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
             format, one file per puck/slice. A readme file with additional
             information is included in the same folder.
@@ -64,13 +62,18 @@ function HomepageHeader() {
 
         <li>
           <h3>Cell Spatial Localization</h3>
-          <p>
-            A lilihood score, for each celltype, of being present at each bead location. Format : nCelltype x nBeads matrix in <a
-              href="https://anndata.readthedocs.io/en/latest/">Anndata </a> format. Data organized into one file per puck. A readme file with additional information is included in the download folder.
+
+          <p> A likelihood score, for each celltype, of being present at each
+            bead location. Bead coordinates and their assigned CCF region IDs
+            are also included. Format : nCelltype x nBeads matrix in <a
+              href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
+            format. Data organized into one file per puck. A readme file with
+            additional information is included in the download folder.
 
 <br/> <a
           href="https://drive.google.com/drive/folders/19R0_JeKJirmV_k7qUfJmHrx3irCkbqS6?usp=share_link">Download</a>
           </p>
+
         </li>
         {/* <li> */}
         {/*   <h3>Cell Metadata</h3> */}
