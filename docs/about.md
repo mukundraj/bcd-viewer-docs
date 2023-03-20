@@ -7,7 +7,7 @@ Brain Cell Data portal is developed by the [Macosko Lab](https://macoskolab.com)
 
 ## Citation
 
-Checkout our preprint: [The cell type composition of the adult mouse brain revealed by single cell and spatial genomics](https://www.biorxiv.org/content/10.1101/2023.03.06.531307v1)!
+Checkout our preprint: [The cell type composition of the adult mouse brain revealed by single cell and spatial genomics](https://www.biorxiv.org/content/10.1101/2023.03.06.531307v2)!
 
 ## Feedback and Queries
 
