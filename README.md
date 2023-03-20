@@ -1,41 +1,25 @@
-# Website
+## Available Scripts
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+In the project directory, you can run:
 
-### Installation
+### `yarn start`
 
-```
-$ yarn
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Local Development
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```
-$ yarn start
-```
+### `yarn build`
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Build
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```
-$ yarn build
-```
+### `yarn deploy:main`
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+To build and deploy to main location.
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+May been execution permissions one time. `chmod u+x ./scripts/deploy_main.sh`
