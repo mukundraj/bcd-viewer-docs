@@ -33,10 +33,7 @@ function HomepageHeader() {
         <li>
           <h3>Gene Expression</h3>
 
-          <p>Number of UMI for each gene for all Slide-seq beads. Format:
-            nBeads x nGenes matrix in  <a
-            href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
-            format. Bead coordinates and their assigned CCF region IDs are also included. Data is orgainized into one file per puck. A readme text
+          <p>Number of UMI for each gene for all Slide-seq beads. A readme text
             file with additional information is provided in the download
           folder. <br/> <a
           href="https://drive.google.com/drive/folders/1fiJDY2HYOasiKOdKSIfk2ol2JTV_wTAl?usp=share_link">Download</a>
@@ -50,9 +47,7 @@ function HomepageHeader() {
           <p> Average and percent expression of all available genes, for all
             identified cell clusters (celltypes), along with metadata for each
             cluster. The metadata includes: a top CCF structure of
-            origin and an assigned cell class. Format: a set of files in <a
-              href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
-            format, one file per puck/slice. A readme file with additional
+            origin and an assigned cell class. A readme file with additional
             information is included in the same folder.
 
             <br/>
@@ -65,9 +60,7 @@ function HomepageHeader() {
 
           <p> A likelihood score, for each celltype, of being present at each
             bead location. Bead coordinates and their assigned CCF region IDs
-            are also included. Format : nCelltype x nBeads matrix in <a
-              href="https://anndata.readthedocs.io/en/latest/">Anndata </a>
-            format. Data organized into one file per puck. A readme file with
+            are also included. A readme file with
             additional information is included in the download folder.
 
 <br/> <a
