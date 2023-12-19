@@ -5,15 +5,15 @@ sidebar_label: Gene Expression
 
 # Gene Expression Tab
 
-The GeneExpr tab shows the expression of a gene selected by the user across the
+The GeneExp tab shows the expression of a gene selected by the user across the
 surface of a cross-section of the mouse brain. The user can also select
 cross-sections from different available brain regions. The following figure
-shows a snapshop of the GeneExpr tab, which is followed by a description of the
+shows a snapshot of the GeneExp tab, which is followed by a description of the
 various components and associated functionality.
 
 <figure>
 
-![GeneExpr](../assets/geneexp.png)
+![GeneExp](../assets/geneexp.png)
 
 <figcaption>Fig 1: A snapshot of the GeneExp tab</figcaption>
 </figure>
@@ -23,8 +23,8 @@ various components and associated functionality.
 ### Puck Selection Carousel (A)
 
 The Puck Selection Carousel allows the user to select a puck (cross-section
-location) from 101 availble pucks. The user can use the bubbles to jump
-directly to a region of interest along the saggital axis.
+location) from 101 available pucks. The user can use the bubbles to jump
+directly to a region of interest along the sagittal axis.
 
 ### Primary Gene Selection (B)
 

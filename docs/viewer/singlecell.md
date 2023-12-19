@@ -11,7 +11,7 @@ interest.
 
 <figure>
 
-![GeneExpr](../assets/singlecell.png)
+![GeneExp](../assets/singlecell.png)
 
 <figcaption>Fig 1: A snapshot of the SingleCell tab</figcaption>
 </figure>
@@ -66,7 +66,7 @@ In addition columns for celltype and genes, in the table, two additional
 columns `cellclass` and `topstructure` convey a cell class and top level
 structure with regard to Allen CCF for each celltype.
 
-The sorting order of the celltypes in the dotplot table can be intereactively
+The sorting order of the celltypes in the dotplot table can be interactively
 changed by clicking on a gene name in the header row. The sorting order can be
 reversed by performing the click again.
 

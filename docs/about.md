@@ -3,11 +3,14 @@
 
 # About
 
-Brain Cell Data portal is developed by the [Macosko Lab](https://macoskolab.com) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org).
+This site is managed by the [Macosko
+lab](https://macoskolab.com) at the [Stanley Center for Psychiatric
+Research](https://www.broadinstitute.org/stanley-center-for-psychiatric-research)
+at the [Broad Institute](https://www.broadinstitute.org).
 
 ## Citation
 
-Checkout our preprint: [The cell type composition of the adult mouse brain revealed by single cell and spatial genomics](https://www.biorxiv.org/content/10.1101/2023.03.06.531307v2)!
+Checkout our manuscript in Nature (2023): [The molecular cytoarchitecture of the adult mouse brain](https://www.nature.com/articles/s41586-023-06818-7)!
 
 ## Feedback and Queries
 
@@ -17,9 +20,9 @@ braincelldata at gmail dot com
 
 Several scientists led the generation and analysis of these important datasets.
 
+- **Evan Macosko**: PI
 - **Karol Balderrama**: Led the acquisition of the Slide-seq dataset.
 - **Jonah Langlieb**: Led the integration of the snRNA-seq and Slide-seq datasets.
-- **Evan Macosko**: PI
 - **Naeem Nadaf**: Led the acquisition of snRNA-seq dataset.
 - **Mukund Raj**: Led the construction of the BrainCellData portal.
 - **Nina Sachdev**: Led the integration of the snRNA-seq and Slide-seq datasets.
