@@ -8,7 +8,7 @@ sidebar_label: Cell Spatial
 The CellSpatial tab shows a likelihood score of a celltype selected by the user
 across the surface of a cross-section of the mouse brain. The user can also
 select cross-sections from different available brain regions. The following
-figure shows a snapshop of the CellSpatial tab, which is followed by a
+figure shows a snapshot of the CellSpatial tab, which is followed by a
 description of the various components and associated functionality.
 
 <figure>
@@ -23,8 +23,8 @@ description of the various components and associated functionality.
 ### Puck Selection Carousel (A)
 
 The Puck Selection Carousel allows the user to select a puck (cross-section
-location) from 101 availble pucks. The user can use the bubbles to jump
-directly to a region of interest along the saggital axis.
+location) from 101 available pucks. The user can use the bubbles to jump
+directly to a region of interest along the sagittal axis.
 
 ### Primary Celltype Selection (B)
 
@@ -57,7 +57,7 @@ user.
 
 The score threshold slider allows the user to filter out beads with low UMI
 count from being shown in the [Overlay Plot (N)](#overlay-plot-n). The default
-value of the score thresold is set to be 0.3.
+value of the score threshold is set to be 0.3.
 
 ### Nissl Selection Checkbox (G)
 
@@ -126,17 +126,17 @@ displayed in a tooltip format.
 ### Region Enrichment (Q)
 
 The region enrichment component helps find celltypes that are highly
-prevelent in a selected region (or a set of regions), while simultaneously,
-being less prevelent outside the selected region. In other words, this
+prevalent in a selected region (or a set of regions), while simultaneously,
+being less prevalent outside the selected region. In other words, this
 components helps find celltypes that are unique to a selected set of regions.
 
 The region enrichment component provides two sliders to the user to filter out
 celltypes from the table on the right side of the component. The first slider
 sets the threshold for minimum percent of beads of selected celltype with cell
 scores greater than 0.3 in the selected region. The second slider sets the
-threshold for mininum number of beads of selected celltype with score greater
+threshold for minimum number of beads of selected celltype with score greater
 than 0.3. Together, these sliders can be adjusted to only select celltypes that
-are prevelent most within a selected region but less so outside that region.
+are prevalent most within a selected region but less so outside that region.
 
 By default, the celltypes in the table are sorted in descending order of the
 percent of beads of the chosen celltype inside selected region (as selected by
